@@ -1,0 +1,30 @@
+{
+  "name": "beatitud-core",
+  "version": "1.0.0",
+  "description": "NodeJs Beatitud Backend Core",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/beatitud/bible.git"
+  },
+  "author": "Antoine Rose",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/beatitud/bible/issues"
+  },
+  "homepage": "https://github.com/beatitud/bible#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "async": "^1.4.2",
+    "jsonschema": "^1.0.2",
+    "request": "^2.61.0",
+    "rimraf": "^2.4.2",
+    "simple-git": "^1.8.0",
+    "underscore": "^1.8.3"
+  }
+}
