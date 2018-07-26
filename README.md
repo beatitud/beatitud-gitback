@@ -2,7 +2,7 @@
 
 Totally inspired by GitBack project (https://www.npmjs.com/package/gitback), this node.js server is dealing with a git DB and exposing an API.
 
-Here is 
+Here is db archi:
 - Folder names at a first level are collection names (saint, bible, church, event, ...)
 - Folder names at a second level are file indexes
 - File inside each folder is item content
